@@ -66,21 +66,70 @@
 
 AnyTax provides API‑driven tax solutions, offering tax filing, estimation, and planning services through a white‑label integration. Their platform enables banks, financial advisors, and fintechs to embed tax calculations via REST APIs or SDKs, supporting individuals, freelancers, and small businesses. The service focuses on seamless data connectivity, compliance, and customizable tax products, aiming to make tax processes accessible and automated for any financial platform.
 
-**Areas:** Company · Fintech · Tax · Integration
+**Areas:** Fintech · Tax · Integration · API · Banking · Tax Planning · White‑Label · Compliance
 
 ## AnyTax on APIs.io
 
 Everything profiled for AnyTax is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/anytax/](https://apis.io/providers/anytax/)** — or go straight to one of the APIs or properties below.
 
+### APIs (16)
+
+- [AnyTax Answer API](https://apis.io/apis/anytax/anytax-answer-api-api/) — Answer persistence: submit, update, and retrieve user answers for tax filing questions.
+- [AnyTax Auth API](https://apis.io/apis/anytax/anytax-auth-api-api/) — User authentication endpoints: registration, login with OTP verification, password reset, token refresh, and session management.
+- [AnyTax Country API](https://apis.io/apis/anytax/anytax-country-api-api/) — The Country API API from AnyTax — 1 operation(s) for country api.
+- [AnyTax EÜR API](https://apis.io/apis/anytax/anytax-e-r-api-api/) — The EÜR API API from AnyTax — 2 operation(s) for eür api.
+- [AnyTax ELSTER Import API](https://apis.io/apis/anytax/anytax-elster-import-api-api/) — The ELSTER Import API API from AnyTax — 4 operation(s) for elster import api.
+- [AnyTax Estimator API](https://apis.io/apis/anytax/anytax-estimator-api/) — The Estimator API from AnyTax — 2 operation(s) for estimator.
+- [AnyTax Filing API](https://apis.io/apis/anytax/anytax-filing-api-api/) — Tax filing lifecycle management: create, retrieve, clone filings and manage filing sections with progress tracking.
+- [AnyTax Filing Eligibility Check API](https://apis.io/apis/anytax/anytax-filing-eligibility-check-api/) — Pre-filing eligibility questionnaire, computed server-side. Callable either from your own backend pre-signup (partner bearer token from POST…
+- [AnyTax Navigation API](https://apis.io/apis/anytax/anytax-navigation-api-api/) — Questionnaire structure: retrieve hierarchical section trees with completion status for filing navigation.
+- [AnyTax Partner platform API](https://apis.io/apis/anytax/anytax-partner-platform-api/) — Server-side endpoints to provision and authenticate your end users against your AnyTax partner tenant. Use these to embed tax filing capabilities into your…
+- [AnyTax Public API](https://apis.io/apis/anytax/anytax-public-api-api/) — The Public API API from AnyTax — 2 operation(s) for public api.
+- [AnyTax Question API](https://apis.io/apis/anytax/anytax-question-api-api/) — Question navigation and retrieval: fetch questions by section, get next unanswered question, and traverse the questionnaire flow.
+- [AnyTax Scenario API](https://apis.io/apis/anytax/anytax-scenario-api-api/) — Tax scenario discovery: list available tax scenarios with their section structure for a given tax year.
+- [AnyTax Tax Saving Tip API](https://apis.io/apis/anytax/anytax-tax-saving-tip-api-api/) — Tax saving tips: retrieve filing-specific tips whose visibility is determined by JEXL expressions over answer values.
+- [AnyTax User API](https://apis.io/apis/anytax/anytax-user-api-api/) — User profile and settings management: retrieve and update user information and preferences.
+- [AnyTax Wage Tax API](https://apis.io/apis/anytax/anytax-wage-tax-api-api/) — Wage tax certificate processing: parse and extract data from uploaded Lohnsteuerbescheinigung PDFs.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [AnyTax Agentic Access](https://apis.io/agentic-access/anytax/anytax-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CurrentQuestionDto](https://apis.io/schemas/anytax/anytax-current-question-dto/)
+- [EurAnswerDto](https://apis.io/schemas/anytax/anytax-eur-answer-dto/)
+- [EvaluateEligibilityResponseDto](https://apis.io/schemas/anytax/anytax-evaluate-eligibility-response-dto/)
+- [FilingResponseDto](https://apis.io/schemas/anytax/anytax-filing-response-dto/)
+- [QuestionDto](https://apis.io/schemas/anytax/anytax-question-dto/)
+- [UserSettingsDto](https://apis.io/schemas/anytax/anytax-user-settings-dto/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Anytax Context](https://apis.io/jsonld/anytax/anytax-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AnyTax API Rules](https://apis.io/rules/anytax/anytax-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Anytax Domain Security](https://apis.io/security/anytax/anytax-domain-security/)
+- [AnyTax Authentication](https://apis.io/security/anytax/anytax-authentication/)
+- [AnyTax Domain Security](https://apis.io/security/anytax/anytax-domain-security/)
 
 ## Where to find this API
 
@@ -93,7 +142,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 9.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 9.5** — minimal · rubric 0.25.0 · scored 2026-10-23
 
 | Facet | Score |
 |---|---|
@@ -127,6 +176,8 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | verified |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
 **Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
 
