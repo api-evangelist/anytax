@@ -74,8 +74,6 @@ Everything profiled for AnyTax is published on APIs.io rather than in this repos
 
 ### APIs (16)
 
-- [AnyTax Answer API](https://apis.io/apis/anytax/anytax-answer-api-api/) — Answer persistence: submit, update, and retrieve user answers for tax filing questions.
-- [AnyTax Auth API](https://apis.io/apis/anytax/anytax-auth-api-api/) — User authentication endpoints: registration, login with OTP verification, password reset, token refresh, and session management.
 - [AnyTax Country API](https://apis.io/apis/anytax/anytax-country-api-api/) — The Country API API from AnyTax — 1 operation(s) for country api.
 - [AnyTax EÜR API](https://apis.io/apis/anytax/anytax-e-r-api-api/) — The EÜR API API from AnyTax — 2 operation(s) for eür api.
 - [AnyTax ELSTER Import API](https://apis.io/apis/anytax/anytax-elster-import-api-api/) — The ELSTER Import API API from AnyTax — 4 operation(s) for elster import api.
@@ -90,6 +88,8 @@ Everything profiled for AnyTax is published on APIs.io rather than in this repos
 - [AnyTax Tax Saving Tip API](https://apis.io/apis/anytax/anytax-tax-saving-tip-api-api/) — Tax saving tips: retrieve filing-specific tips whose visibility is determined by JEXL expressions over answer values.
 - [AnyTax User API](https://apis.io/apis/anytax/anytax-user-api-api/) — User profile and settings management: retrieve and update user information and preferences.
 - [AnyTax Wage Tax API](https://apis.io/apis/anytax/anytax-wage-tax-api-api/) — Wage tax certificate processing: parse and extract data from uploaded Lohnsteuerbescheinigung PDFs.
+- [AnyTax Answer API](https://apis.io/apis/anytax/anytax-answer-api-api/) — Answer persistence: submit, update, and retrieve user answers for tax filing questions.
+- [AnyTax Auth API](https://apis.io/apis/anytax/anytax-auth-api-api/) — User authentication endpoints: registration, login with OTP verification, password reset, token refresh, and session management.
 
 ### Published properties
 
